@@ -21,7 +21,7 @@ def get_quote():
   response=requests.get("https://zenquotes.io/api/random")
   json_data=response.json()
   print(json_data)
-  quote=json_data[0]['q']
+  quote=json_data[0]['q']+" - "+json_data[0]['h']
   return(quote)
 
 def update_encouragements(encouraging_message):
