@@ -12,7 +12,7 @@ TOKEN=os.environ['Disc_Token']
 
 sad_words=["miserable", "sad", "depressed", "angry", "frustrated"]
 
-perm_encouragements=["Hang in there, Buddy!", "Cheer up, you got this!","You can take on everything!", "Ah shit, thats rough, let it out bud", "FUCK ME"]
+perm_encouragements=["Hang in there, Buddy!", "Cheer up, you got this!","You can take on everything!", "Ah shit, thats rough, let it out bud",]
 
 if "responding" not in db.keys():
   db["responding"]=True
